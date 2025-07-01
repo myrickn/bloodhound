@@ -14,7 +14,7 @@ DATADOG_OPTIONS = {
 initialize(**DATADOG_OPTIONS)
 
 BP_TAG_PATTERN = re.compile(r"(BigPandaTags:\s*\[)(.*?)(\])", re.DOTALL)
-LOG_DIR = r"C:\BITBUCKET\StrayDog\log"
+LOG_DIR = r"C:\bloodhound\log"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 def load_tag_mappings(file_path, revert=False):
