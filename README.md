@@ -75,7 +75,7 @@ Use the `--revert` flag to reverse the mapping (`new_tag → old_tag`).
 A log file is saved to:
 
 ```text
-C:\BITBUCKET\StrayDog\log\bigpanda_tag_updates_<timestamp>.log
+C:\bloodhound\log\bigpanda_tag_updates_<timestamp>.log
 ```
 
 Log entries include:
